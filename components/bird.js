@@ -1,5 +1,5 @@
 import Matter from "matter-js";
-import {Image } from "react-native";
+import {ImageBackground } from "react-native";
 
 
 const Bird = props => {//the props we are getting here actually come from this function component not from outside, so the function is exported by default where it creates bird object via matter.js and passes the props to this jsx component
@@ -11,7 +11,7 @@ const Bird = props => {//the props we are getting here actually come from this f
 
 
     return (
-        <Image source={require('../assets/Images/face.png')}
+        <ImageBackground source={require('../assets/Images/alien.png')}
             style={{
                 position: "absolute",
                 left: xBody,
@@ -29,13 +29,12 @@ const Bird = props => {//the props we are getting here actually come from this f
 
 
 
-export default (world, pos, size) => {
+export default (world, pos, radius) => {
 
-    const initialBird = Matter.Bodies.rectangle(
+    const initialBird = Matter.Bodies.circle(
         pos.x, //reading actual position from the props
         pos.y,
-        size.width,
-        size.height,
+        radius,
         { label: 'Bird' }
         //creating bird object with matter js, its gonna be the hit box, when collision happens
     )

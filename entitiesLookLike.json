@@ -1,0 +1,119 @@
+{
+    "bird": {
+        "body": {
+            "_original": null,
+            "angle": 0,
+            "anglePrev": 0,
+            "angularSpeed": 0,
+            "angularVelocity": 0,
+            "area": 1600,
+            "axes": [Array
+            ],
+            "bounds": [Object
+            ],
+            "chamfer": null,
+            "circleRadius": 0,
+            "collisionFilter": [Object
+            ],
+            "constraintImpulse": [Object
+            ],
+            "deltaTime": 33.089790999889374,
+            "density": 0.001,
+            "events": null,
+            "force": [Object
+            ],
+            "friction": 0.1,
+            "frictionAir": 0.01,
+            "frictionStatic": 0.5,
+            "id": 1,
+            "inertia": 1706.6666666666667,
+            "inverseInertia": 0.0005859375,
+            "inverseMass": 0.625,
+            "isSensor": false,
+            "isSleeping": false,
+            "isStatic": false,
+            "label": "Bird",
+            "mass": 1.6,
+            "motion": 0,
+            "parent": [Circular
+            ],
+            "parts": [Array
+            ],
+            "plugin": [Object
+            ],
+            "position": [Object
+            ],
+            "positionImpulse": [Object
+            ],
+            "positionPrev": [Object
+            ],
+            "render": [Object
+            ],
+            "restitution": 0,
+            "sleepCounter": 0,
+            "sleepThreshold": 60,
+            "slop": 0.05,
+            "speed": 10.626440601117,
+            "timeScale": 1,
+            "torque": 0,
+            "totalContacts": 0,
+            "type": "body",
+            "velocity": [Object
+            ],
+            "vertices": [Array
+            ]
+        },
+        "pos": {
+            "x": 50,
+            "y": 200
+        },
+        "renderer": <Bird />
+    },
+    "physics": {
+        "engine": {
+            "broadphase": [Object
+            ],
+            "constraintIterations": 2,
+            "detector": [Object
+            ],
+            "enableSleeping": false,
+            "events": [Array
+            ],
+            "gravity": [Object
+            ],
+            "grid": [Object
+            ],
+            "metrics": [Object
+            ],
+            "pairs": [Object
+            ],
+            "plugin": [Object
+            ],
+            "positionIterations": 6,
+            "timing": [Object
+            ],
+            "velocityIterations": 4,
+            "world": [Object
+            ]
+        },
+        "world": {
+            "bodies": [Array
+            ],
+            "cache": [Object
+            ],
+            "composites": [Array
+            ],
+            "constraints": [Array
+            ],
+            "gravity": [Object
+            ],
+            "id": 0,
+            "isModified": false,
+            "label": "World",
+            "parent": null,
+            "plugin": [Object
+            ],
+            "type": "composite"
+        }
+    }
+}
